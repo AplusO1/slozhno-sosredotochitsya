@@ -19,6 +19,10 @@
   min-height: 768px;
   justify-content: space-between;
   color: var(--accent-color, #FF0070);
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .header__decorative-element::after {
@@ -370,7 +374,7 @@
 
 .img-street {
   max-width: 206%;
-  height: 100%;
+  height: 98%;
   object-fit: cover;
   object-position: center;
 }
