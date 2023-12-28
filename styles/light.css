@@ -1,5 +1,5 @@
 .page.theme_light {
-  --font-family: 'IBM Plex mono', sans-serif;
+  --font-family: 'IBM Plex mono', monospace;
   --accent-color: #353430;
   --bg-color: #FFF1F7;
   --bg-color-light: #FF8DCB;
@@ -8,13 +8,15 @@
   --text-color: #353430;
   --pictures-title: #353430;
   --text-color-black: #353430;
+  --frame-hover: rgba(50, 49, 45, 0.40);
   --background-image: url(../images/cover-image-light.png);
 }
 
 
 @media (prefers-color-scheme: light) {
   :root {
-    --font-family: 'IBM Plex mono', sans-serif;
+    --font-family: 'IBM Plex mono', monospace;
+    --frame-hover: rgba(50, 49, 45, 0.40);
     --text-color-black: #353430;
     --pictures-title: #353430;
     --text-color: #353430;
