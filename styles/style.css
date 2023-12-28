@@ -19,9 +19,6 @@
   min-height: 768px;
   justify-content: space-between;
   color: var(--accent-color, #FF0070);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .header__decorative-element::after {
