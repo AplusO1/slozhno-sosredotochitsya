@@ -89,6 +89,9 @@
   width: clamp(265px, 48vw, 491px);
   margin-bottom: 12.5%;
   color: var(--text-color-black, #000028);
+}
+
+.title-decor {
   background-color: var(--bg-text, #ff0070);
 }
 
@@ -170,7 +173,6 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
-  background-color: var(--bg-text, #ff0070);
 }
 
 .multitasking-text {
@@ -234,12 +236,11 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
-  background-color: var(--bg-text, #FF0070);
 }
 
 .attention-item-text {
   color: var(--text-color, #F1B2CE);
-  font-family: IBM Plex Mono;
+  font-family: var(--font-family, monospace);
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px; /* 130% */
@@ -274,7 +275,6 @@
   font-style: bold;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
-  background-color: var(--bg-text, #ff0070);
 }
 
 .advice__container-item {
@@ -294,7 +294,6 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
-  background-color: var(--bg-text, #ff0070);
 }
 
 .advice__item-text {
@@ -317,35 +316,21 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
-  background-color: var(--bg-text, #ff0070);
 }
 
 .pictures__img {
   object-fit: cover;
   object-position: center;
-}
-
-.img-sunset {
-  max-width: 100%;
-}
-
-.img-ice-cream {
   max-width: 100%;
   height: 100%;
 }
 
 .img-tape {
-  max-width: 100%;
   height: 140%;
-}
-
-.img-books {
-  max-width: 100%;
 }
 
 .img-street {
   max-width: 203%;
-  height: 100%;
 }
 
 .pictures__container {
@@ -409,7 +394,6 @@
 
 @media (max-width: 768px) {
   .header__theme-menu {
-    display: flex;
     justify-content: end;
     margin-top: 23.6%;
     padding-right: 2.1%;
@@ -421,7 +405,6 @@
     }
     
   .header__theme-menu-list {
-    display: flex;
     flex-direction: column;
     gap: 16px;
     padding-right: 0.5%;
@@ -460,7 +443,6 @@
   }
   
   .attention_item {
-    flex-direction: column;
     max-width: 728px;
   }
   
@@ -509,8 +491,6 @@
   }
 
   .header__theme-menu {
-    display: flex;
-    justify-content: end;
     margin-top: 17.5%;
     padding-right: 1%;
   }
@@ -521,8 +501,6 @@
     }
 
   .header__theme-menu-list {
-    display: flex;
-    flex-direction: column;
     gap: 16px;
   }
 
@@ -534,7 +512,6 @@
   }
 
   .concentration {
-    display: flex;
     padding: 0 10px;
     flex-direction: column;
     padding-top: 10.5%;
@@ -572,8 +549,6 @@
   }
 
   .pictures {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     padding: 13.5% 10px 9% 10px;
   }
